@@ -1,0 +1,9 @@
+applications:
+- name: shopping-cart
+  path: target/shopping-cart-0.0.1-SNAPSHOT.jar
+  routes:
+    - route: book-store-jenkins-pipline-setup.cfapps.io
+  env:
+    WELCOME_MESSAGE: book store
+  services:
+    service: book-store-db
