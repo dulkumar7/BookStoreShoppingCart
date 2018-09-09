@@ -1,5 +1,5 @@
 applications:
-- name: shopping-cart
+- name: Book-Store
   path: target/bookstore.war
   routes:
     - route: book-store-jenkins-pipline-setup.cfapps.io
